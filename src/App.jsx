@@ -26,13 +26,21 @@ function App() {
         <div className="columna-izq">
           <img src={logo1} alt="imagen" className= "logo1" />
         </div>
-        <div className="columna-der">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste iusto veniam sequi natus, ipsam quibusdam dicta voluptas ullam sed iure sunt facilis id vitae aut sapiente tenetur neque soluta blanditiis?</p>
+        <div className="columna-der-texto">
+          <p>Somos una empresa de ambulancias aliadas en toda Caracas, buscamos ofrecerte 
+            un servicio de ambulancias al alcance de un solo click, ubicamos la 
+            ambulancia más cercana a tu ubicación para evitar demoras en tiempo 
+            crucial, atenderte y cuidarte es nuestra prioridad ¡en todo momento!</p>
+
+          <p>
+            Contamos con un equipo de paramédicos altamente calificados, además proveemos
+            distintos tipos de servicios y especialidades para cubrir todas tus necesidades
+            y las de tus seres queridos.
+          </p>
         </div>
       </div>
       <div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Atque exercitationem vel dolorem cum distinctio quo similique officia dolores voluptates, voluptatibus tempore corporis explicabo neque laboriosam accusantium quidem, sequi, ducimus recusandae.</p>
+       
       </div>
 
       <div>
