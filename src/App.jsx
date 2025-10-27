@@ -13,8 +13,7 @@ function App() {
 
   return (
     <>
-    <Header>
-    </Header>
+    <Header />
     <div className="imgambu"> 
       <ImageSlider images={sliderImages} interval={4000} />
     </div>
@@ -22,9 +21,10 @@ function App() {
         <h1>{mensaje}</h1>
        <h2>Al cuidado de su vida en todo momento...</h2>
       </div>
+
       <div className= "contenedor-padre"> 
-        <div>
-          <img src={logo1} alt="imagen" className="columna-izq"/>
+        <div className="columna-izq">
+          <img src={logo1} alt="imagen" className= "logo1" />
         </div>
         <div className="columna-der">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste iusto veniam sequi natus, ipsam quibusdam dicta voluptas ullam sed iure sunt facilis id vitae aut sapiente tenetur neque soluta blanditiis?</p>

@@ -2,8 +2,8 @@
   width: 100%;
   margin: 0;
   padding: 15px;
-  padding-right: 15px;
-  margin-right: 15px;
+  /*padding-right: 15px;
+  margin-right: 15px;*/
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
@@ -12,32 +12,38 @@
   color: white;
 }
 .imgambu{
+  margin-top: 65px; 
   width: 100%;
-  height:auto;
-  margin: 0;
-  padding:0;
+  
 }
 .contenedor-padre{
   display: flex;
   gap: 15px;
-  padding: 0px;
-  margin-right: 10px;
-  /*justify-content: space-between;*/
+  padding: 0px 10px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  
 }
 
 .columna-der{
-  flex:1;
-
+  flex: 1;
+  padding: 10px;
+  word-wrap: break-word;
+  min-width: 0;
 }
 
 
 .columna-izq{
-  flex:1;
- 
+  flex: 1;
+  min-width: 0;
+} 
+
+
+.logo1{
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
-.header{
-  position: fixed;
-    top: 0;
-    width: 100%;
-    margin-right: 10px;
-}
+
