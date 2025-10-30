@@ -15,12 +15,14 @@ function App() {
     <>
     <Header />
     <div className="imgambu"> 
-      <ImageSlider images={sliderImages} interval={4000} />
-    </div>
       <div className='inicio'>
         <h1>{mensaje}</h1>
        <h2>Al cuidado de su vida en todo momento...</h2>
       </div>
+      <ImageSlider images={sliderImages} interval={4000} />
+      
+    
+      
 
       <div className= "contenedor-padre"> 
         <div className="columna-izq">
@@ -28,7 +30,7 @@ function App() {
         </div>
         <div className="columna-der-texto">
           <p>Somos una empresa de ambulancias aliadas en toda Caracas, buscamos ofrecerte 
-            un servicio de ambulancias al alcance de un solo click, ubicamos la 
+            un servicio de ambulancias al alcance de un solo click, encontramos la 
             ambulancia más cercana a tu ubicación para evitar demoras en tiempo 
             crucial, atenderte y cuidarte es nuestra prioridad ¡en todo momento!</p>
 
@@ -39,9 +41,11 @@ function App() {
           </p>
         </div>
       </div>
+      </div>
       <div>
        
       </div>
+    
 
       <div>
 
