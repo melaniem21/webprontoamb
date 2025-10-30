@@ -42,8 +42,8 @@ function App() {
         </div>
       </div>
       </div>
-      <div>
-       
+      <div className="servicios">
+       <h2>Nuestros Servicios</h2>
       </div>
     
 
