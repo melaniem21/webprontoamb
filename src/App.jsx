@@ -45,6 +45,18 @@ function App() {
       <div className="servicios">
        <h2>Nuestros Servicios</h2>
       </div>
+      <div className='columservicios'>
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum repellat quaerat dolores. Sequi consectetur alias eos molestias velit, ex sit delectus eveniet rem vel repellat unde. A maiores blanditiis architecto.</p>
+        </div>
+        <div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quae quas sit cumque dolor assumenda doloremque eius at repellat earum facilis nisi exercitationem pariatur aspernatur, eaque eveniet, expedita quibusdam ipsum?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt asperiores autem libero, maiores odio illum ducimus debitis est repudiandae veritatis iste corporis sit consequuntur fuga ipsum, corrupti, possimus harum?
+        </div>
+
+      </div>
     
 
       <div>

@@ -75,3 +75,8 @@
   font-weight: bold;
   margin-top: 40px;
 }
+
+.columservicios{
+  display:flex;
+  gap:10px;
+}
