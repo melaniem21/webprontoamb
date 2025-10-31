@@ -35,11 +35,13 @@
 .columna-der-texto{
   position: absolute;
   z-index: 10;
-  top: 330px;
+  top: 325px;
   display: flex;
   height: auto;
-  padding: 40px;
-
+  padding-left: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 25px;
   margin-top: 0px;
   margin-bottom: 10px;
   margin-left: 40%;
@@ -50,10 +52,10 @@
   text-align: justify;
   font-weight: bold;
   color:rgba(4, 35, 121, 0.808);
-  font-size: 134%;
+  font-size: 132%;
   background-color:rgba(255, 198, 209, 0.726);
-  border-top-left-radius: 150px;
-  border-end-start-radius: 150px;
+  border-top-left-radius: 260px;
+  border-end-start-radius: 260px;
   
 
   
@@ -70,7 +72,7 @@
 
 
 .logo1{
-  flex: 1.5;
+  flex: 1;
   max-width: 100%;
   max-height: 400px;
   height: auto;
@@ -83,7 +85,7 @@
   color:rgba(220, 20, 60, 0.808);
   font-size: 150%;
   font-weight: bold;
-  margin-top: 40px;
+  top: 60px;
 }
 
 .columservicios{
