@@ -1,6 +1,7 @@
 .inicio{
   position: absolute;
   top: 40px;
+
   padding: 15px;
   z-index: 10;
   box-sizing: border-box;
@@ -13,6 +14,7 @@
   border-end-end-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 .imgambu{
   margin-top: 65px; 
   width: 100%;
@@ -21,6 +23,7 @@
 }
 .contenedor-padre{
   display: flex;
+  flex-direction: row;
   gap: 15px;
   padding: 0px 0px;
   margin: 0;
@@ -30,11 +33,16 @@
 }
 
 .columna-der-texto{
-  flex: 1;
-  padding: 20px;
+  position: absolute;
+  z-index: 10;
+  top: 330px;
+  display: flex;
+  height: auto;
+  padding: 40px;
+
   margin-top: 0px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 40%;
   margin-right: 0px;
   word-wrap: break-word;
   min-width: 0;
@@ -42,11 +50,12 @@
   text-align: justify;
   font-weight: bold;
   color:rgba(4, 35, 121, 0.808);
-  font-size: 110%;
+  font-size: 134%;
   background-color:rgba(255, 198, 209, 0.726);
-  border-top-left-radius: 25px;
-  border-end-start-radius: 25px;
-  width:100%;
+  border-top-left-radius: 150px;
+  border-end-start-radius: 150px;
+  
+
   
   
   
@@ -54,7 +63,8 @@
 
 
 .columna-izq{
-  flex: 0.5;
+  display:flex;
+  flex: 0.4;
   min-width: 0;
 } 
 

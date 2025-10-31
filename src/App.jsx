@@ -19,27 +19,29 @@ function App() {
         <h1>{mensaje}</h1>
        <h2>Al cuidado de su vida en todo momento...</h2>
       </div>
-      <ImageSlider images={sliderImages} interval={4000} />
-      
-    
-      
-
-      <div className= "contenedor-padre"> 
-        <div className="columna-izq">
-          <img src={logo1} alt="imagen" className= "logo1" />
-        </div>
-        <div className="columna-der-texto">
+      <div className="columna-der-texto">
           <p>Somos una empresa de ambulancias aliadas en toda Caracas, buscamos ofrecerte 
             un servicio de ambulancias al alcance de un solo click, encontramos la 
             ambulancia más cercana a tu ubicación para evitar demoras en tiempo 
-            crucial, atenderte y cuidarte es nuestra prioridad ¡en todo momento!</p>
-
-          <p>
+            crucial, atenderte y cuidarte es nuestra prioridad ¡en todo momento!
+            <p>
             Contamos con un equipo de paramédicos altamente calificados, además proveemos
             distintos tipos de servicios y especialidades para cubrir todas tus necesidades
             y las de tus seres queridos.
-          </p>
+          </p></p>
+
+          
         </div>
+      <ImageSlider images={sliderImages} interval={4000} />
+      
+      
+
+      <div className= "contenedor-padre"> 
+      
+        <div className="columna-izq">
+          <img src={logo1} alt="imagen" className= "logo1" />
+        </div>
+        
       </div>
       </div>
       <div className="servicios">
