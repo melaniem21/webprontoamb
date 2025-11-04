@@ -87,6 +87,8 @@ function App() {
         </div>
       </div>
 
+      <div className='espacio'></div>
+      
       <div className="contenedor-contacto">
         <div className="contacto">
           <h2>Siguenos en nuestras redes</h2>
