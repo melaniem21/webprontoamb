@@ -49,7 +49,8 @@ function App() {
       <div className="servicios">
        <h1>Nuestros Servicios</h1>
       </div>
-      <div className='columservicios'>
+      <div className="fondoazul">
+        <div className='columservicios'>
         <div className= "columndesc">
 
           <button className="boton-servicio">
@@ -72,9 +73,11 @@ function App() {
           <h2>En cualquier lugar</h2>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt asperiores autem libero, maiores odio illum ducimus debitis est repudiandae veritatis iste corporis sit consequuntur fuga ipsum, corrupti, possimus harum?
         </div>
-
+        
       </div>
-    
+      <button className= "boton-servicio"> Ver más</button>
+      </div>
+      
     <div className='espacio'></div>
 
       <div className="contenedor-afil1">
@@ -82,13 +85,13 @@ function App() {
           <h1>¿Deseas Afiliarte?</h1>
           <h2>¡Llena el formulario!</h2>
           <div >
-            <button className="boton-servicio">Enviar</button>
+            <button className="boton-azul">Enviar</button>
           </div>
         </div>
       </div>
 
       <div className='espacio'></div>
-      
+
       <div className="contenedor-contacto">
         <div className="contacto">
           <h2>Siguenos en nuestras redes</h2>
