@@ -17,12 +17,36 @@
 .imgambu{
   margin-top: 65px; 
   position: relative;
-  
+}
+
+.imgdoctor{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 50%;
+  border: solid 3px rgba(4, 35, 121);
 }
 .contenedor-padre{
   display: flex;
   flex-direction: row;
   gap: 10px;
+  
+}
+.contenedor-info{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.hijo-info{
+  height: auto;
+  text-align: right;
+  color:rgba(0, 0, 0, 0.808);
+  font-size: 130%;
+  width: 50%;
+  
   
 }
 
@@ -116,10 +140,10 @@
  
 }
 .contenedor-afil1{
-  background-color: rgba(243, 60, 60, 0.98);
-  padding: 20px;
+  background-color: rgba(243, 60, 60);
+  padding: 40px;
   border-radius: 30px;
-  margin: 30px;
+  margin: 50px;
 }
 .contenedor-afil2{
   margin: 10px;
@@ -128,16 +152,26 @@
   font-size: 80%;
 }
 .contenedor-contacto{
+  display: flex;
   background-color: rgb(2, 32, 112);
   padding: 30px;
   height: auto;
+  gap: 55%;
 }
+
 
 .espacio{
   height: 60px;
   background: white;
 }
 .contacto{
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.redes{
+  flex-direction: column;
   color: white;
   text-align: center;
 }

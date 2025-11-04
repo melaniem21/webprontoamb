@@ -6,8 +6,11 @@ import logo1 from './img/logo.png';
 import img1 from './img/ambulancia1.png';
 import img2 from './img/ambulancia2.jpg';
 import img3 from './img/paramedicos.jpg';
+import imgdoctor from './img/doctor2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAmbulance, faHeart, faHospital, faHouseMedicalCircleCheck, faKitMedical } from "@fortawesome/free-solid-svg-icons";
+import { faAmbulance, faHeart, faHospital, faHouseMedicalCircleCheck, faKitMedical, faMailForward, faMessage, faPhone, faX } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram, faFacebook, faTwitter, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+
 
 function App() {
   const [mensaje, setMensaje] = useState('Bienvenido a Pronto Ambulancias');
@@ -78,7 +81,18 @@ function App() {
       <button className= "boton-servicio"> Ver más</button>
       </div>
       
-    <div className='espacio'></div>
+     <div className='espacio'></div>
+      <div className="contenedor-info" >
+        <img src={imgdoctor} className="imgdoctor" />
+        <div className= "hijo-info">
+          <h1>¿Por qué elegir</h1>
+          <h1 style={{color: 'red'}}> Pronto Ambulancias?</h1>
+          <div>
+            <p style={{ textAlign: 'justify' }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde laudantium dicta laboriosam fugit assumenda quibusdam incidunt impedit officia a amet neque tenetur, enim necessitatibus aliquid dolor quam commodi. Eaque, culpa?</p>
+          </div>
+      </div>
+     
+      </div>
 
       <div className="contenedor-afil1">
         <div className = "contenedor-afil2">
@@ -89,14 +103,26 @@ function App() {
           </div>
         </div>
       </div>
-
+      
       <div className='espacio'></div>
 
       <div className="contenedor-contacto">
-        <div className="contacto">
+        <div className="redes">
           <h2>Siguenos en nuestras redes</h2>
+          <FontAwesomeIcon icon={faInstagram} size="2x" style={{ margin: '0 10px' }} />
+          <FontAwesomeIcon icon={faFacebook} size="2x" style={{ margin: '0 10px' }} />
+          <FontAwesomeIcon icon={faX} size="2x" style={{ margin: '0 10px' }} />
+        </div>
+
+        <div className="contacto">
+          <h3>Contáctanos</h3>
+          <FontAwesomeIcon icon={faPhone} size= 'xl' style={{ margin: '0 10px' }}/>
+          <FontAwesomeIcon icon={faWhatsapp} size='2xl' style={{ margin: '0 10px' }}/>
+          <FontAwesomeIcon icon={faMessage} size='2xl' style={{ margin: '0 10px' }}/>
         </div>
       </div>
+
+      
       
   </>
   )
