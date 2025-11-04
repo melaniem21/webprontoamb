@@ -7,7 +7,7 @@ import img1 from './img/ambulancia1.png';
 import img2 from './img/ambulancia2.jpg';
 import img3 from './img/paramedicos.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAmbulance } from "@fortawesome/free-solid-svg-icons";
+import { faAmbulance, faHeart, faHospital, faHouseMedicalCircleCheck, faKitMedical } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [mensaje, setMensaje] = useState('Bienvenido a Pronto Ambulancias');
@@ -47,7 +47,7 @@ function App() {
       </div>
       </div>
       <div className="servicios">
-       <h2>Nuestros Servicios</h2>
+       <h1>Nuestros Servicios</h1>
       </div>
       <div className='columservicios'>
         <div className= "columndesc">
@@ -55,29 +55,42 @@ function App() {
           <button className="boton-servicio">
             <FontAwesomeIcon icon={faAmbulance} size="4x" />
           </button>
-          <h2>Serv1</h2>
+          <h2>Atención Inmediata</h2>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum repellat quaerat dolores. Sequi consectetur alias eos molestias velit, ex sit delectus eveniet rem vel repellat unde. A maiores blanditiis architecto.
         </div>
         <div className= "columndesc">
           <button className="boton-servicio">
-            <FontAwesomeIcon icon={faAmbulance} size="4x" />
+            <FontAwesomeIcon icon={faHeart} size="4x" />
           </button>
-          <h2>Serv2</h2>
+          <h2>Seguridad para tu Familia</h2>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quae quas sit cumque dolor assumenda doloremque eius at repellat earum facilis nisi exercitationem pariatur aspernatur, eaque eveniet, expedita quibusdam ipsum?
         </div>
         <div className= "columndesc">
           <button className="boton-servicio">
-            <FontAwesomeIcon icon={faAmbulance} size="4x" />
+            <FontAwesomeIcon icon={faHouseMedicalCircleCheck} size="4x" />
           </button>
-          <h2>Serv3</h2>
+          <h2>En cualquier lugar</h2>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt asperiores autem libero, maiores odio illum ducimus debitis est repudiandae veritatis iste corporis sit consequuntur fuga ipsum, corrupti, possimus harum?
         </div>
 
       </div>
     
+    <div className='espacio'></div>
 
-      <div>
+      <div className="contenedor-afil1">
+        <div className = "contenedor-afil2">
+          <h1>¿Deseas Afiliarte?</h1>
+          <h2>¡Llena el formulario!</h2>
+          <div >
+            <button className="boton-servicio">Enviar</button>
+          </div>
+        </div>
+      </div>
 
+      <div className="contenedor-contacto">
+        <div className="contacto">
+          <h2>Siguenos en nuestras redes</h2>
+        </div>
       </div>
       
   </>
