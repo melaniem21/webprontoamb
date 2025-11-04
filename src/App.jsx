@@ -6,6 +6,8 @@ import logo1 from './img/logo.png';
 import img1 from './img/ambulancia1.png';
 import img2 from './img/ambulancia2.jpg';
 import img3 from './img/paramedicos.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAmbulance } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [mensaje, setMensaje] = useState('Bienvenido a Pronto Ambulancias');
@@ -48,13 +50,26 @@ function App() {
        <h2>Nuestros Servicios</h2>
       </div>
       <div className='columservicios'>
-        <div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum repellat quaerat dolores. Sequi consectetur alias eos molestias velit, ex sit delectus eveniet rem vel repellat unde. A maiores blanditiis architecto.</p>
+        <div className= "columndesc">
+
+          <button className="boton-servicio">
+            <FontAwesomeIcon icon={faAmbulance} size="4x" />
+          </button>
+          <h2>Serv1</h2>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum repellat quaerat dolores. Sequi consectetur alias eos molestias velit, ex sit delectus eveniet rem vel repellat unde. A maiores blanditiis architecto.
         </div>
-        <div>
+        <div className= "columndesc">
+          <button className="boton-servicio">
+            <FontAwesomeIcon icon={faAmbulance} size="4x" />
+          </button>
+          <h2>Serv2</h2>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quae quas sit cumque dolor assumenda doloremque eius at repellat earum facilis nisi exercitationem pariatur aspernatur, eaque eveniet, expedita quibusdam ipsum?
         </div>
-        <div>
+        <div className= "columndesc">
+          <button className="boton-servicio">
+            <FontAwesomeIcon icon={faAmbulance} size="4x" />
+          </button>
+          <h2>Serv3</h2>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt asperiores autem libero, maiores odio illum ducimus debitis est repudiandae veritatis iste corporis sit consequuntur fuga ipsum, corrupti, possimus harum?
         </div>
 
